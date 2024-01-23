@@ -1,0 +1,78 @@
+.App {
+  text-align: center;
+}
+
+.navbar {
+  background-color: #333;
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center; /* Center items vertically */
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+  display: flex;
+}
+
+li {
+  margin-right: 15px;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+}
+
+.search-bar {
+  position: relative;
+}
+
+input {
+  padding: 5px;
+  border: none;
+  border-radius: 3px;
+  margin-right: 15px;
+}
+
+.dropdown-options {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  padding: 5px;
+  list-style-type: none;
+  margin: 0;
+  max-height: 100px;
+  overflow-y: auto;
+}
+
+.dropdown-options li {
+  cursor: pointer;
+  padding: 5px;
+}
+
+.dropdown-options li:hover {
+  background-color: #f0f0f0;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+}
+
+.logo img {
+  width: 40px; /* Adjust the width of the logo */
+  margin-right: 10px;
+}
+
+.logo span {
+  font-weight: bold;
+  font-size: 18px;
+  color: white;
+}
